@@ -32,7 +32,7 @@ export default function Contact() {
 
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent('Hola, me gustaría obtener más información sobre sus servicios.');
-    window.open(`https://wa.me/528112345678?text=${message}`, '_blank');
+    window.open(`https://wa.me/5218124070421?text=${message}`, '_blank');
   };
 
   return (
@@ -90,7 +90,7 @@ export default function Contact() {
                       <Input
                         id="whatsapp"
                         type="tel"
-                        placeholder="+52 81 1234 5678"
+                        placeholder="+52 81 2407 0421"
                         value={formData.whatsapp}
                         onChange={(e) => setFormData({ ...formData, whatsapp: e.target.value })}
                         required
@@ -187,7 +187,7 @@ export default function Contact() {
                   <Phone className="h-5 w-5 text-[#004AAD] mt-1 shrink-0" />
                   <div>
                     <p className="font-semibold text-gray-900">Teléfono</p>
-                    <p className="text-gray-600">+52 81 1234 5678</p>
+                    <p className="text-gray-600">+52 81 2407 0421</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
@@ -217,7 +217,7 @@ export default function Contact() {
                     <SiFacebook className="h-5 w-5" />
                   </a>
                   <a
-                    href="https://instagram.com"
+                    href="https://www.instagram.com/grupoavantia/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 rounded-full bg-[#004AAD]/10 hover:bg-[#004AAD] text-[#004AAD] hover:text-white flex items-center justify-center transition-all duration-300 hover:scale-110"

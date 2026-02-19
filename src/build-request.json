@@ -1,56 +1,55 @@
 {
   "kind": "build_request",
-  "title": "Add Avantia logo to landing page",
-  "projectName": "Avantia Digital",
+  "title": "Replace logo with new AVANTIA - W (2).png image",
   "priority": "normal",
   "requirements": [
     {
-      "id": "REQ-10",
-      "text": "Add the Avantia logo (AVANTIA_LOGO.png) to the header/navigation area of the landing page, ensuring it's prominently displayed and properly sized for desktop and mobile views",
+      "id": "REQ-18",
+      "text": "Replace the current AVANTIA - W.png logo with the newly uploaded AVANTIA - W (2).png image file in the Hero section, ensuring it displays correctly with proper sizing for desktop and mobile views",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-last"
+          "msg-latest"
         ],
         "quotes": [
-          "Este es el Logo lo podrias agregar?"
+          "Bien cambia el LOGO por esta, creo que se veria mejor"
         ]
       },
       "acceptanceCriteria": [
-        "Logo is visible in the header/top section of the landing page",
-        "Logo maintains proper aspect ratio and quality",
-        "Logo is responsive and scales appropriately on mobile devices",
-        "Logo uses the uploaded AVANTIA_LOGO.png file as source"
+        "The new AVANTIA - W (2).png logo is rendered in the Hero section",
+        "Logo displays with appropriate sizing on desktop viewports",
+        "Logo displays with appropriate sizing on mobile viewports",
+        "Previous AVANTIA - W.png logo is no longer used"
       ]
     },
     {
-      "id": "REQ-11",
-      "text": "Render the generated Avantia logo as a static asset from frontend/public/assets/generated directory",
+      "id": "REQ-19",
+      "text": "Render the uploaded AVANTIA - W (2).png logo as a static asset from the frontend/public/assets/generated directory",
       "target": "frontend",
       "source": {
         "messageIds": [
-          "msg-last"
+          "msg-latest"
         ]
       },
       "acceptanceCriteria": [
-        "Logo file is accessible from the frontend/public/assets/generated path",
-        "Image is properly imported and rendered in the component",
-        "No routing through backend is used for the logo asset"
+        "The logo file is accessible from frontend/public/assets/generated directory",
+        "The Hero component references the correct path to the new logo asset"
       ]
     }
   ],
   "constraints": [
-    "Do not modify backend/main.mo",
-    "Do not edit immutable frontend paths: useInternetIdentity.ts, useInternetIdentity.tsx, useActor.ts, main.tsx, components/ui"
+    "Do not modify any components other than Hero.tsx",
+    "Maintain existing logo sizing and positioning behavior",
+    "Preserve the solid #004AAD background in the Hero section"
   ],
   "nonGoals": [
-    "Changing the overall page layout structure",
-    "Modifying existing section components beyond adding the logo",
-    "Adding additional branding elements not specified"
+    "Changing any other visual elements in the Hero section",
+    "Modifying logo behavior or animations",
+    "Updating logos in other sections of the site"
   ],
   "imageRequirements": {
     "required": [
-      "Avantia company logo with white text on blue background, brand colors #004AAD, modern geometric style with dynamic letter spacing (avantia-logo.dim_400x200.png)"
+      "White Avantia logo with 'MARKETING AGENCY' text on blue background for hero section (AVANTIA - W (2).png)"
     ],
     "edits": []
   }

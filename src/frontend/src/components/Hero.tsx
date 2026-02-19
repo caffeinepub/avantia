@@ -3,7 +3,7 @@ import { ArrowRight, MessageCircle } from 'lucide-react';
 
 export default function Hero() {
   const handleWhatsAppClick = () => {
-    window.open('https://wa.me/528112345678', '_blank');
+    window.open('https://wa.me/5218124070421', '_blank');
   };
 
   const handleStrategyClick = () => {
@@ -11,26 +11,16 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image with Overlay */}
-      <div className="absolute inset-0 z-0">
-        <img
-          src="/assets/generated/hero-background.dim_1920x1080.png"
-          alt="Digital Technology Background"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-gradient-to-br from-[#004AAD]/95 via-[#004AAD]/85 to-[#0066DD]/90" />
-      </div>
-
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#004AAD]">
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-20 text-center">
         <div className="max-w-4xl mx-auto space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-1000">
           {/* Logo */}
           <div className="flex justify-center mb-8">
             <img
-              src="/assets/generated/avantia-logo.dim_400x200.png"
-              alt="Avantia Logo"
-              className="h-16 md:h-20 lg:h-24 w-auto object-contain"
+              src="/assets/AVANTIA - W (2).png"
+              alt="Avantia Marketing Agency Logo"
+              className="h-20 md:h-28 lg:h-32 w-auto object-contain"
             />
           </div>
 

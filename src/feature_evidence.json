@@ -2,8 +2,8 @@
   "kind": "feature_evidence_report",
   "features": [
     {
-      "featureId": "feature-add-the-avantia-logo-avantia-logo-png-to-the-header-navigation-area-of-the-landing-page-ensuring-it-s-prominently-displayed-and-properly-sized-for-desktop-and-mobile-views",
-      "featureTitle": "Add the Avantia logo (AVANTIA_LOGO.png) to the header/navigation area of the landing page, ensuring it's prominently displayed and properly sized for desktop and mobile views",
+      "featureId": "feature-replace-the-current-avantia-w-png-logo-with-the-newly-uploaded-avantia-w-2-png-image-file-in-the-hero-section-ensuring-it-displays-correctly-with-proper-sizing-for-desktop-and-mobile-views",
+      "featureTitle": "Replace the current AVANTIA - W.png logo with the newly uploaded AVANTIA - W (2).png image file in the Hero section, ensuring it displays correctly with proper sizing for desktop and mobile views",
       "files": [
         "frontend/src/components/Hero.tsx"
       ],
@@ -15,13 +15,13 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-10"
+        "REQ-18"
       ],
       "confidence": "high"
     },
     {
-      "featureId": "feature-render-the-generated-avantia-logo-as-a-static-asset-from-frontend-public-assets-generated-directory",
-      "featureTitle": "Render the generated Avantia logo as a static asset from frontend/public/assets/generated directory",
+      "featureId": "feature-render-the-uploaded-avantia-w-2-png-logo-as-a-static-asset-from-the-frontend-public-assets-generated-directory",
+      "featureTitle": "Render the uploaded AVANTIA - W (2).png logo as a static asset from the frontend/public/assets/generated directory",
       "files": [
         "frontend/src/components/Hero.tsx"
       ],
@@ -33,7 +33,7 @@
         "github-export-icp-cli@1.0.0"
       ],
       "testIds": [
-        "REQ-11"
+        "REQ-19"
       ],
       "confidence": "high"
     }

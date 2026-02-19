@@ -1,16 +1,18 @@
 {
   "schemaVersion": "1.0.0",
-  "projectStateVersion": 5,
+  "projectStateVersion": 13,
   "summary": "Modern, professional conversion-focused landing page for Avantia, a Digital Marketing Agency in Monterrey, Mexico. Features hero section, services showcase, contact forms, and WhatsApp integration with #004AAD brand color.",
   "architectural_notes": [
     "Brand color: #004AAD with white and light gray complementary colors",
     "Modern, minimalist, elegant corporate style with clean technological design",
     "Conversion-focused layout with prominent CTAs and WhatsApp integration",
-    "Fully responsive design optimized for mobile and desktop"
+    "Fully responsive design optimized for mobile and desktop",
+    "WhatsApp contact number: 8124070421",
+    "Instagram profile: https://www.instagram.com/grupoavantia/"
   ],
   "known_issues": [],
   "isFixRequest": false,
-  "imageRequirements": "## Required Images\n- Avantia company logo with white text on blue background, brand colors #004AAD, modern geometric style with dynamic letter spacing (avantia-logo.dim_400x200.png)",
+  "imageRequirements": "## Required Images\n- White Avantia logo with 'MARKETING AGENCY' text on blue background for hero section (AVANTIA - W (2).png)",
   "existing_features": [
     {
       "id": "feature-create-hero-section-with-headline-impulsamos-tu-marca-al-siguiente-nivel-subtitle-focused-on-results-and-digital-growth-primary-cta-button-solicita-tu-estrategia-gratuita-secondary-cta-button-cont-ctanos-por-whatsapp-and-digital-technology-aesthetic-background-image",
@@ -99,6 +101,70 @@
         "REQ-11"
       ],
       "version": 1
+    },
+    {
+      "id": "feature-update-all-whatsapp-integrations-to-use-the-phone-number-8124070421-including-the-floatingwhatsapp-component-and-contact-section-whatsapp-button",
+      "title": "Update all WhatsApp integrations to use the phone number 8124070421, including the FloatingWhatsApp component and Contact section WhatsApp button",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-instagram-social-media-link-to-the-contact-section-and-footer-replacing-or-updating-the-existing-instagram-placeholder-link",
+      "title": "Add Instagram social media link to the Contact section and Footer, replacing or updating the existing Instagram placeholder link",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-instagram-social-media-link-url-to-https-www-instagram-com-grupoavantia-in-both-the-contact-section-and-footer-components",
+      "title": "Update the Instagram social media link URL to https://www.instagram.com/grupoavantia/ in both the Contact section and Footer components",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-current-logo-implementation-with-the-uploaded-avantia-w-png-image-file-ensuring-it-displays-correctly-in-the-hero-section-header-navigation-area-with-proper-sizing-for-desktop-and-mobile-views",
+      "title": "Replace the current logo implementation with the uploaded AVANTIA - W.png image file, ensuring it displays correctly in the Hero section header/navigation area with proper sizing for desktop and mobile views",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-the-uploaded-avantia-w-png-logo-as-a-static-asset-from-the-frontend-public-assets-generated-directory",
+      "title": "Render the uploaded AVANTIA - W.png logo as a static asset from the frontend/public/assets/generated directory",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-remove-the-background-image-from-the-hero-section-and-replace-it-with-a-solid-color-rectangle-using-004aad",
+      "title": "Remove the background image from the Hero section and replace it with a solid color rectangle using #004AAD",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-current-avantia-w-png-logo-with-the-newly-uploaded-avantia-w-2-png-image-file-in-the-hero-section-ensuring-it-displays-correctly-with-proper-sizing-for-desktop-and-mobile-views",
+      "title": "Replace the current AVANTIA - W.png logo with the newly uploaded AVANTIA - W (2).png image file in the Hero section, ensuring it displays correctly with proper sizing for desktop and mobile views",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-the-uploaded-avantia-w-2-png-logo-as-a-static-asset-from-the-frontend-public-assets-generated-directory",
+      "title": "Render the uploaded AVANTIA - W (2).png logo as a static asset from the frontend/public/assets/generated directory",
+      "reqIds": [
+        "REQ-19"
+      ],
+      "version": 1
     }
   ],
   "new_feature_requests": [
@@ -153,6 +219,30 @@
     {
       "id": "AR-9",
       "summary": "Add company logo to the landing page",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Update WhatsApp number to 8124070421",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Add Instagram link integration",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-12",
+      "summary": "Remove background image and replace with solid #004AAD rectangle",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-13",
+      "summary": "Replace current logo with newly uploaded logo image",
       "reqIds": [],
       "status": "pending"
     }

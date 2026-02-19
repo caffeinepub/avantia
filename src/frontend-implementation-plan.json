@@ -1,38 +1,37 @@
 {
   "kind": "implementation_plan",
   "version": "1.0",
-  "title": "Add Avantia logo to landing page",
+  "title": "Replace logo with new AVANTIA - W (2).png image",
   "requirements": [
     {
-      "id": "REQ-10",
-      "summary": "Add Avantia logo to header/navigation area with responsive sizing",
+      "id": "REQ-18",
+      "summary": "Replace the current AVANTIA - W.png logo with the newly uploaded AVANTIA - W (2).png image file in the Hero section, ensuring it displays correctly with proper sizing for desktop and mobile views",
       "acceptanceCriteria": [
-        "Logo is visible in the header/top section of the landing page",
-        "Logo maintains proper aspect ratio and quality",
-        "Logo is responsive and scales appropriately on mobile devices",
-        "Logo uses the uploaded AVANTIA_LOGO.png file as source"
+        "The new AVANTIA - W (2).png logo is rendered in the Hero section",
+        "Logo displays with appropriate sizing on desktop viewports",
+        "Logo displays with appropriate sizing on mobile viewports",
+        "Previous AVANTIA - W.png logo is no longer used"
       ],
       "file_operations": [
         {
           "path": "frontend/src/components/Hero.tsx",
           "operation": "modify",
-          "description": "Add Avantia logo to the hero section header area, positioning it prominently at the top. Implement responsive sizing using Tailwind classes (e.g., h-12 md:h-16) to ensure proper display on mobile and desktop. Use the AVANTIA_LOGO.png asset with proper alt text and maintain aspect ratio."
+          "description": "Update the logo image source from 'AVANTIA - W.png' to 'AVANTIA - W (2).png', ensuring the img element references the correct path at /assets/AVANTIA - W (2).png. Maintain existing className attributes for responsive sizing and positioning behavior."
         }
       ]
     },
     {
-      "id": "REQ-11",
-      "summary": "Render generated Avantia logo as static asset from frontend/public/assets/generated",
+      "id": "REQ-19",
+      "summary": "Render the uploaded AVANTIA - W (2).png logo as a static asset from the frontend/public/assets directory",
       "acceptanceCriteria": [
-        "Logo file is accessible from the frontend/public/assets/generated path",
-        "Image is properly imported and rendered in the component",
-        "No routing through backend is used for the logo asset"
+        "The logo file is accessible from frontend/public/assets directory",
+        "The Hero component references the correct path to the new logo asset"
       ],
       "file_operations": [
         {
           "path": "frontend/src/components/Hero.tsx",
           "operation": "modify",
-          "description": "Import and render the generated Avantia logo from frontend/public/assets/generated/avantia-logo.dim_400x200.png as a static asset. Reference the image using the public path /assets/generated/avantia-logo.dim_400x200.png in the img src attribute. Ensure the image is loaded as a frontend static asset without backend routing."
+          "description": "Verify that the img element src attribute points to '/assets/AVANTIA - W (2).png' to correctly load the logo from the frontend/public/assets directory. Ensure the file path matches the uploaded asset location."
         }
       ]
     }
