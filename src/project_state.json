@@ -1,0 +1,164 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Modern, professional conversion-focused landing page for Avantia, a Digital Marketing Agency in Monterrey, Mexico. Features hero section, services showcase, contact forms, and WhatsApp integration with #004AAD brand color.",
+  "architectural_notes": [
+    "Brand color: #004AAD with white and light gray complementary colors",
+    "Modern, minimalist, elegant corporate style with clean technological design",
+    "Conversion-focused layout with prominent CTAs and WhatsApp integration",
+    "Fully responsive design optimized for mobile and desktop"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Avantia company logo with white text on blue background, brand colors #004AAD, modern geometric style with dynamic letter spacing (avantia-logo.dim_400x200.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-hero-section-with-headline-impulsamos-tu-marca-al-siguiente-nivel-subtitle-focused-on-results-and-digital-growth-primary-cta-button-solicita-tu-estrategia-gratuita-secondary-cta-button-cont-ctanos-por-whatsapp-and-digital-technology-aesthetic-background-image",
+      "title": "Create hero section with headline 'Impulsamos tu marca al siguiente nivel', subtitle focused on results and digital growth, primary CTA button 'Solicita tu estrategia gratuita', secondary CTA button 'Contáctanos por WhatsApp', and digital/technology aesthetic background image",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-about-avantia-section-with-professional-agency-description-mentioning-monterrey-nuevo-le-n-location-and-emphasizing-results-strategy-creativity-and-growth-focus",
+      "title": "Create About Avantia section with professional agency description mentioning Monterrey, Nuevo León location and emphasizing results, strategy, creativity, and growth focus",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-services-section-displaying-five-service-cards-with-icons-gesti-n-de-redes-sociales-publicidad-digital-meta-ads-google-ads-branding-y-dise-o-desarrollo-web-and-estrategias-de-marketing-digital-each-with-benefit-oriented-descriptions",
+      "title": "Create Services section displaying five service cards with icons: Gestión de Redes Sociales, Publicidad Digital (Meta Ads, Google Ads), Branding y Diseño, Desarrollo Web, and Estrategias de Marketing Digital, each with benefit-oriented descriptions",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-why-choose-avantia-section-highlighting-four-differentiators-estrategias-personalizadas-enfoque-en-resultados-medibles-atenci-n-directa-y-cercana-and-experiencia-en-mercado-local-monterrey",
+      "title": "Create Why Choose Avantia section highlighting four differentiators: Estrategias personalizadas, Enfoque en resultados medibles, Atención directa y cercana, and Experiencia en mercado local (Monterrey)",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-strong-cta-section-with-004aad-blue-background-white-text-displaying-es-momento-de-hacer-crecer-tu-marca-and-prominent-agenda-tu-asesor-a-button",
+      "title": "Create strong CTA section with #004AAD blue background, white text displaying 'Es momento de hacer crecer tu marca', and prominent 'Agenda tu asesoría' button",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-contact-section-with-simple-form-collecting-nombre-empresa-whatsapp-email-and-mensaje-fields-direct-whatsapp-button-social-media-links-for-grupo-avantia-and-display-location-as-monterrey-nuevo-le-n",
+      "title": "Create Contact section with simple form collecting Nombre, Empresa, WhatsApp, Email, and Mensaje fields, direct WhatsApp button, social media links for 'Grupo Avantia', and display location as 'Monterrey, Nuevo León'",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-floating-whatsapp-button-that-remains-visible-throughout-the-page",
+      "title": "Implement floating WhatsApp button that remains visible throughout the page",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-brand-color-004aad-as-primary-color-throughout-the-site-using-whites-and-light-grays-as-complementary-colors-with-modern-minimalist-professional-styling-clean-technological-design-and-prominent-blue-buttons-with-dynamic-hover-effects",
+      "title": "Apply brand color #004AAD as primary color throughout the site, using whites and light grays as complementary colors, with modern minimalist professional styling, clean technological design, and prominent blue buttons with dynamic hover effects",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-ensure-the-entire-landing-page-is-100-responsive-across-all-device-sizes-with-smooth-animations-clear-modern-structure-highly-visible-buttons-and-conversion-optimized-layout",
+      "title": "Ensure the entire landing page is 100% responsive across all device sizes with smooth animations, clear modern structure, highly visible buttons, and conversion-optimized layout",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-the-avantia-logo-avantia-logo-png-to-the-header-navigation-area-of-the-landing-page-ensuring-it-s-prominently-displayed-and-properly-sized-for-desktop-and-mobile-views",
+      "title": "Add the Avantia logo (AVANTIA_LOGO.png) to the header/navigation area of the landing page, ensuring it's prominently displayed and properly sized for desktop and mobile views",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-render-the-generated-avantia-logo-as-a-static-asset-from-frontend-public-assets-generated-directory",
+      "title": "Render the generated Avantia logo as a static asset from frontend/public/assets/generated directory",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Hero section with impact title, CTA buttons, and digital aesthetic background",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "About Avantia section highlighting Monterrey location and agency values",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Services section with modern cards for Social Media, Ads, Branding, Web Dev, and Marketing",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Why choose Avantia section with differentiators",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Strong CTA section with blue background and consultation button",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Contact section with form, WhatsApp button, social media links, and location",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Floating WhatsApp button integration",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Responsive design with smooth animations and conversion optimization",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Add company logo to the landing page",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Avantia",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

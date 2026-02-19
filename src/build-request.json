@@ -1,0 +1,57 @@
+{
+  "kind": "build_request",
+  "title": "Add Avantia logo to landing page",
+  "projectName": "Avantia Digital",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-10",
+      "text": "Add the Avantia logo (AVANTIA_LOGO.png) to the header/navigation area of the landing page, ensuring it's prominently displayed and properly sized for desktop and mobile views",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-last"
+        ],
+        "quotes": [
+          "Este es el Logo lo podrias agregar?"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Logo is visible in the header/top section of the landing page",
+        "Logo maintains proper aspect ratio and quality",
+        "Logo is responsive and scales appropriately on mobile devices",
+        "Logo uses the uploaded AVANTIA_LOGO.png file as source"
+      ]
+    },
+    {
+      "id": "REQ-11",
+      "text": "Render the generated Avantia logo as a static asset from frontend/public/assets/generated directory",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-last"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Logo file is accessible from the frontend/public/assets/generated path",
+        "Image is properly imported and rendered in the component",
+        "No routing through backend is used for the logo asset"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify backend/main.mo",
+    "Do not edit immutable frontend paths: useInternetIdentity.ts, useInternetIdentity.tsx, useActor.ts, main.tsx, components/ui"
+  ],
+  "nonGoals": [
+    "Changing the overall page layout structure",
+    "Modifying existing section components beyond adding the logo",
+    "Adding additional branding elements not specified"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Avantia company logo with white text on blue background, brand colors #004AAD, modern geometric style with dynamic letter spacing (avantia-logo.dim_400x200.png)"
+    ],
+    "edits": []
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "backend/main.mo": "Empty Motoko actor serving as a placeholder backend for the Internet Computer canister.",
+  "feature_evidence.json": "Feature evidence report documenting two completed features related to rendering the Avantia logo in the Hero component with responsive sizing and static asset loading from the generated directory.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of all frontend component files describing their functionality, layout, and recent fixes for Tailwind class conflicts.",
+  "frontend/index.css": "Global Tailwind CSS configuration with OKLCH color system defining light and dark mode CSS variables for the design system including primary, secondary, accent, and sidebar colors.",
+  "frontend/index.html": "HTML entry point with basic meta tags, page title 'Avantia', and script reference to the React application mounted at #root.",
+  "frontend/src/App.tsx": "Main React application component that renders the complete landing page by composing all section components (Hero, About, Services, WhyChoose, CTASection, Contact, Footer) and the FloatingWhatsApp button.",
+  "frontend/src/components/About.tsx": "About section component describing Avantia's Monterrey location and mission, featuring four value cards (Strategy, Creativity, Growth, Results) with icons in a responsive grid layout.",
+  "frontend/src/components/Contact.tsx": "Contact section with a comprehensive form (name, company, WhatsApp, email, message), direct WhatsApp button, contact information card displaying location/phone/email, and social media links for Facebook, Instagram, and LinkedIn.",
+  "frontend/src/components/CTASection.tsx": "Call-to-action section with blue background (#004AAD), prominent headline about growing brands, and a button that scrolls to the contact form with decorative gradient overlays.",
+  "frontend/src/components/FloatingWhatsApp.tsx": "Fixed floating WhatsApp button positioned at bottom-right with green background (#25D366), message icon, and red pulse indicator that opens WhatsApp chat with pre-filled message.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying Avantia branding, Monterrey location, copyright notice, and attribution link to caffeine.ai with UTM tracking parameters.",
+  "frontend/src/components/Hero.tsx": "Hero section featuring the Avantia logo at top, main headline, subtitle, two CTA buttons (strategy request and WhatsApp), full-screen background image with blue gradient overlay, and animated scroll indicator.",
+  "frontend/src/components/Services.tsx": "React component displaying five service cards (social media management, digital advertising, branding, web development, marketing strategy) with icons, titles, descriptions, and hover animations using Avantia's #004AAD brand color.",
+  "frontend/src/components/WhyChoose.tsx": "React component showcasing four reasons to choose Avantia (personalized strategies, measurable results, direct attention, local market experience) with icons from lucide-react and animated cards.",
+  "frontend/src/hooks/useActor.ts": "Custom React hook managing Internet Computer actor creation with authentication, using React Query for caching and automatically invalidating dependent queries when identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Custom React hook and context provider for Internet Identity authentication on ICP, managing login state, identity persistence, and AuthClient lifecycle with configurable options.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom OKLCH color variables for Avantia's #004AAD brand, dark mode support, and custom animation utilities (fade-in, slide-in from various directions).",
+  "frontend/src/main.tsx": "Application entry point setting up React root with QueryClientProvider for React Query and InternetIdentityProvider for ICP authentication context.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending theme with OKLCH color system, custom shadows, Inter font family, accordion animations, and plugins for typography, container queries, and animations.",
+  "project_state.json": "Project metadata defining Avantia landing page architecture with #004AAD brand color, conversion-focused design, existing features for hero, about, services, why-choose, CTA, and contact sections."
+}

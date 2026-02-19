@@ -1,0 +1,50 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-19T00:36:25.607Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 2,
+    "implemented": 2,
+    "items": [
+      {
+        "id": "REQ-10",
+        "summary": "Add the Avantia logo (AVANTIA_LOGO.png) to the header/navigation area of the landing page, ensuring it's prominently displayed and properly sized for desktop and mobile views",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Hero.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Hero.tsx"
+        ]
+      },
+      {
+        "id": "REQ-11",
+        "summary": "Render the generated Avantia logo as a static asset from frontend/public/assets/generated directory",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Hero.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Hero.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "build-template/README.md",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/public/assets/generated/avantia-logo.dim_400x200.png",
+    "frontend/src/components/Hero.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}
